@@ -1,2 +1,1 @@
-t400-enclosure
-==============
+# Pax Instruments T400 Enclosure
