@@ -13,12 +13,12 @@
    inkscape:version="0.91 r13725"
    version="1.1"
    id="svg4583"
-   viewBox="0 0 256.18109 27.637794"
-   height="7.7999997mm"
-   width="72.299995mm"
-   inkscape:export-filename="/Users/pax/projects/paxinstruments/t400-enclosure/graphics/pax_instrments_t400_label_front_panel.png"
-   inkscape:export-xdpi="174.09399"
-   inkscape:export-ydpi="174.09399">
+   viewBox="0 0 255.11812 26.574803"
+   height="7.5mm"
+   width="72mm"
+   inkscape:export-filename="/Users/pax/projects/paxinstruments/t400-enclosure/graphics/pax_instrments_t400_label_front_panel_600dpi.png"
+   inkscape:export-xdpi="600.04431"
+   inkscape:export-ydpi="600.04431">
   <defs
      id="defs4585">
     <clipPath
@@ -209,9 +209,9 @@
      showgrid="false"
      inkscape:current-layer="layer4"
      inkscape:document-units="px"
-     inkscape:cy="13.789641"
-     inkscape:cx="97.947919"
-     inkscape:zoom="2.2744741"
+     inkscape:cy="13.287402"
+     inkscape:cx="127.55906"
+     inkscape:zoom="3.1005247"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -228,8 +228,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid11940"
-       originx="-219.88429"
-       originy="-790.6075" />
+       originx="-220.41578"
+       originy="-791.13897" />
   </sodipodi:namedview>
   <metadata
      id="metadata4588">
@@ -247,11 +247,11 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="label"
-     transform="translate(-219.88429,-234.1169)">
+     transform="translate(-220.41578,-234.6484)">
     <g
        style="display:inline"
        id="g4845"
-       transform="translate(-5.1857199e-6,2.3005989e-6)">
+       transform="matrix(0.99585067,0,0,0.96153849,1.4438669,9.5359899)">
       <rect
          inkscape:export-ydpi="174.0938"
          inkscape:export-xdpi="174.0938"
