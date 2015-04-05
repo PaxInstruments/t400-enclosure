@@ -15,7 +15,10 @@
    id="svg3424"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="pax_instrments_t400_label_record.svg">
+   sodipodi:docname="pax_instruments_t400_button_record.svg"
+   inkscape:export-filename="/Users/pax/projects/paxinstruments/t400-enclosure/graphics/pax_instruments_t400_button_record_600dpi.png"
+   inkscape:export-xdpi="600"
+   inkscape:export-ydpi="600">
   <defs
      id="defs3426">
     <marker
@@ -233,9 +236,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.7090126"
-     inkscape:cx="156.88373"
-     inkscape:cy="-37.007448"
+     inkscape:zoom="26.172297"
+     inkscape:cx="11.298341"
+     inkscape:cy="10.488189"
      inkscape:document-units="px"
      inkscape:current-layer="layer9"
      showgrid="false"
@@ -263,7 +266,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -272,15 +275,14 @@
      id="layer9"
      inkscape:label="icon"
      transform="translate(-174.34228,-152.15797)">
-    <ellipse
+    <circle
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="/Users/pax/projects/paxinstruments/branding/front_panel_with_logos3.png"
        style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:23.67300034;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="circle4633"
-       cx="186.19464"
-       cy="162.64615"
-       rx="6.2067556"
-       ry="6.1035175" />
+       cx="186.19489"
+       cy="162.54266"
+       r="6.2069998" />
   </g>
 </svg>

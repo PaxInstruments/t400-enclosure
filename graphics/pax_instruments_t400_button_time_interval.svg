@@ -15,7 +15,10 @@
    id="svg3424"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="pax_instrments_t400_time_interval.svg">
+   sodipodi:docname="pax_instruments_t400_button_time_interval.svg"
+   inkscape:export-filename="/Users/pax/projects/paxinstruments/t400-enclosure/graphics/pax_instruments_t400_button_time_interval.png"
+   inkscape:export-xdpi="600"
+   inkscape:export-ydpi="600">
   <defs
      id="defs3426">
     <marker
@@ -234,7 +237,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="26.172308"
-     inkscape:cx="11.852358"
+     inkscape:cx="5.7199221"
      inkscape:cy="10.488192"
      inkscape:document-units="px"
      inkscape:current-layer="layer9"
@@ -274,7 +277,7 @@
      transform="translate(-174.34228,-152.15797)">
     <g
        id="g4589"
-       transform="matrix(0.07532069,0,0,0.07406786,144.32399,123.8519)">
+       transform="matrix(0.07531299,0,0,0.07531299,144.32827,123.19975)">
       <path
          id="path4591"
          d="m 555.84836,423.7664 c -55.25,0 -99.95,44.75 -99.95,100 0,55.25 44.7,100 99.95,100 55.25,0 100.05,-44.75 100.05,-100 0,-55.25 -44.8,-100 -100.05,-100 z m 0.05,180 c -44.2,0 -80,-35.8 -80,-80 0,-44.2 35.8,-80.00001 80,-80.00001 44.2,0 80,35.80001 80,80.00001 0,44.2 -35.8,80 -80,80 z"
