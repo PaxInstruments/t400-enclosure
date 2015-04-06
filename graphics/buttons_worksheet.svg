@@ -239,6 +239,213 @@
          operator="in"
          in2="SourceGraphic" />
     </filter>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="Arrow2Lstart-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lstart">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(1.1,0,0,1.1,1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path7947-6" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="Arrow2Lend-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path7950-5" />
+    </marker>
+    <clipPath
+       id="clipPath3071-8"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3073-2"
+         d="M 0,768 1024,768 1024,0 0,0 0,768 Z"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clipPath3113-5"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3115-7"
+         d="M 0,768 1024,768 1024,0 0,0 0,768 Z"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clipPath3129-9"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3131-8"
+         d="m 0,0 1024,0 0,768 L 0,768 0,0 Z"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Paper like emboss effect"
+       inkscape:menu="Bumps"
+       inkscape:label="Paper Bump"
+       id="filter6265-4"
+       x="-0.12">
+      <feTurbulence
+         result="result0"
+         seed="0"
+         baseFrequency="1"
+         numOctaves="5"
+         type="fractalNoise"
+         id="feTurbulence6267-5" />
+      <feConvolveMatrix
+         result="result5"
+         order="5 5"
+         kernelMatrix="-2 0 0 0 -2 0 -2 0 -2 0 0 0 -10 0 0 0 -2 0 -2 0 -2 0 0 0 -2 "
+         targetX="2"
+         targetY="2"
+         id="feConvolveMatrix6269-1" />
+      <feComposite
+         result="result2"
+         k3="0.5"
+         k2="0.5"
+         k1="1.5"
+         operator="arithmetic"
+         in="result5"
+         in2="SourceGraphic"
+         id="feComposite6271-1"
+         k4="0" />
+      <feColorMatrix
+         in="result2"
+         type="luminanceToAlpha"
+         result="result2"
+         id="feColorMatrix6273-0" />
+      <feDiffuseLighting
+         surfaceScale="0.66399997"
+         result="result1"
+         diffuseConstant="0.60000002"
+         id="feDiffuseLighting6275-5">
+        <feDistantLight
+           elevation="35"
+           azimuth="225"
+           id="feDistantLight6277-1" />
+      </feDiffuseLighting>
+      <feComposite
+         operator="arithmetic"
+         in="result1"
+         k1="1.5"
+         k3="0.5"
+         result="result3"
+         in2="SourceGraphic"
+         id="feComposite6279-7"
+         k2="0"
+         k4="0" />
+      <feBlend
+         in="result3"
+         mode="normal"
+         result="result6"
+         in2="result1"
+         id="feBlend6281-8" />
+      <feComposite
+         operator="in"
+         in2="SourceGraphic"
+         id="feComposite6283-1" />
+    </filter>
+    <filter
+       inkscape:label="Rough Canvas Painting"
+       inkscape:menu="Bumps"
+       inkscape:menu-tooltip="Painting canvas emboss effect"
+       style="color-interpolation-filters:sRGB"
+       id="filter11760-6">
+      <feTurbulence
+         numOctaves="5"
+         baseFrequency="0.4"
+         id="feTurbulence11762-2" />
+      <feConvolveMatrix
+         order="5 5"
+         kernelMatrix="-4 0 0 0 -4 0 -2 0 -2 0 0 0 -10 0 0 0 -2 0 -2 0 -4 0 0 0 -4 "
+         targetX="2"
+         targetY="2"
+         id="feConvolveMatrix11764-2" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 2 0 -5 0 2 0 2 "
+         targetX="1"
+         targetY="1"
+         id="feConvolveMatrix11766-2" />
+      <feColorMatrix
+         type="saturate"
+         result="result1"
+         id="feColorMatrix11768-1" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="arithmetic"
+         k1="1.5"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite11770-2"
+         k4="0" />
+      <feTurbulence
+         baseFrequency="0.1"
+         numOctaves="5"
+         type="fractalNoise"
+         result="result8"
+         id="feTurbulence11772-1" />
+      <feDisplacementMap
+         scale="4"
+         in2="result8"
+         in="result2"
+         id="feDisplacementMap11774-0"
+         xChannelSelector="A"
+         yChannelSelector="A" />
+      <feBlend
+         in2="result1"
+         mode="normal"
+         result="result4"
+         id="feBlend11776-7" />
+      <feColorMatrix
+         type="luminanceToAlpha"
+         id="feColorMatrix11778-8" />
+      <feDiffuseLighting
+         surfaceScale="7"
+         diffuseConstant="1"
+         result="result3"
+         id="feDiffuseLighting11780-9">
+        <feDistantLight
+           azimuth="180"
+           elevation="37"
+           id="feDistantLight11782-4" />
+      </feDiffuseLighting>
+      <feComposite
+         in2="result4"
+         operator="arithmetic"
+         k1="1.5"
+         k3="0.5"
+         result="result5"
+         id="feComposite11784-1"
+         k2="0"
+         k4="0" />
+      <feBlend
+         in2="result3"
+         mode="normal"
+         result="result6"
+         id="feBlend11786-5" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite11788-0" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -247,9 +454,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.58142451"
-     inkscape:cx="341.39567"
-     inkscape:cy="573.21597"
+     inkscape:zoom="1.6445169"
+     inkscape:cx="259.23621"
+     inkscape:cy="259.55179"
      inkscape:document-units="px"
      inkscape:current-layer="layer9"
      showgrid="false"
@@ -2996,13 +3203,13 @@
     <image
        sodipodi:absref="/Users/pax/projects/paxinstruments/t400-enclosure/graphics/pax_instruments_t400_button_cycle_graph_600dpi.png"
        xlink:href="pax_instruments_t400_button_cycle_graph_600dpi.png"
-       y="607.54828"
-       x="202.80518"
-       id="image9772"
-       preserveAspectRatio="none"
-       height="71.029755"
+       style="stroke:none;stroke-width:5.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        width="80.162148"
-       style="stroke:none;stroke-width:5.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       height="71.029755"
+       preserveAspectRatio="none"
+       id="image9772"
+       x="202.80518"
+       y="607.54828" />
     <rect
        style="opacity:0.41100003;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.3161664;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.31616647, 1.31616646999999998;stroke-dashoffset:0;stroke-opacity:1"
        id="rect9817"
@@ -3011,28 +3218,14 @@
        x="198.83421"
        y="731.40106"
        rx="4.8194122" />
-    <g
-       id="g9835"
-       transform="matrix(3.3823691,0,0,3.3823691,-387.84235,-1387.3996)">
-      <image
-         sodipodi:absref="/Users/pax/projects/paxinstruments/t400-enclosure/graphics/pax_instruments_t400_button_power_600dpi.png"
-         xlink:href="pax_instruments_t400_button_power_600dpi.png"
-         style="stroke:none;stroke-width:5.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         width="23.700001"
-         height="21"
-         preserveAspectRatio="none"
-         id="image9794"
-         x="173.2574"
-         y="657.6134" />
-      <rect
-         style="opacity:0.41100003;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.38912562;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.38912562, 0.38912562;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect9819"
-         width="23.312056"
-         height="20.612057"
-         x="173.45137"
-         y="657.80737"
-         rx="1.4248629" />
-    </g>
+    <rect
+       rx="4.8194122"
+       y="837.26825"
+       x="198.8342"
+       height="69.717583"
+       width="78.849976"
+       id="rect9819"
+       style="opacity:0.41100003;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.3161664;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.31616647, 1.31616647;stroke-dashoffset:0;stroke-opacity:1" />
     <g
        id="g9839"
        transform="matrix(3.3823691,0,0,3.3823691,-297.21514,-1424.6219)"
@@ -3040,13 +3233,13 @@
       <image
          sodipodi:absref="/Users/pax/projects/paxinstruments/t400-enclosure/graphics/pax_instruments_t400_button_record_600dpi.png"
          xlink:href="pax_instruments_t400_button_record_600dpi.png"
-         style="stroke:none;stroke-width:5.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         width="23.700001"
-         height="21"
-         preserveAspectRatio="none"
-         id="image9750"
+         y="601.63342"
          x="220.3757"
-         y="601.63342" />
+         id="image9750"
+         preserveAspectRatio="none"
+         height="21"
+         width="23.700001"
+         style="stroke:none;stroke-width:5.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <rect
          rx="1.4248629"
          y="601.82739"
@@ -3063,13 +3256,13 @@
       <image
          sodipodi:absref="/Users/pax/projects/paxinstruments/t400-enclosure/graphics/pax_instruments_t400_button_time_interval_600dpi.png"
          xlink:href="pax_instruments_t400_button_time_interval_600dpi.png"
-         style="stroke:none;stroke-width:5.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         width="23.703951"
-         height="21.003502"
-         preserveAspectRatio="none"
-         id="image9805"
+         y="630.91931"
          x="222.64418"
-         y="630.91931" />
+         id="image9805"
+         preserveAspectRatio="none"
+         height="21.003502"
+         width="23.703951"
+         style="stroke:none;stroke-width:5.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <rect
          style="opacity:0.41100003;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.38912562;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.38912562, 0.38912562000000001;stroke-dashoffset:0;stroke-opacity:1"
          id="rect9823"
@@ -3086,13 +3279,13 @@
       <image
          sodipodi:absref="/Users/pax/projects/paxinstruments/t400-enclosure/graphics/pax_instruments_t400_button_change_unit_600dpi.png"
          xlink:href="pax_instruments_t400_button_change_unit_600dpi.png"
-         style="stroke:none;stroke-width:5.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         width="23.700001"
-         height="21"
-         preserveAspectRatio="none"
-         id="image9761"
+         y="658.80273"
          x="222.10539"
-         y="658.80273" />
+         id="image9761"
+         preserveAspectRatio="none"
+         height="21"
+         width="23.700001"
+         style="stroke:none;stroke-width:5.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <rect
          rx="1.4248629"
          y="658.9967"
@@ -3130,13 +3323,13 @@
        id="rect8657"
        style="opacity:0.41100003;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.97855991;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.97855996, 0.97855996;stroke-dashoffset:0;stroke-opacity:1" />
     <rect
-       style="opacity:0.41100003;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.98979056;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.98979061, 0.98979061;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:0.41100003;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.9273237;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.92732377, 0.92732377;stroke-dashoffset:0;stroke-opacity:1"
        id="rect8659"
-       width="53.069202"
-       height="58.582287"
-       x="211.40622"
-       y="842.73645"
-       rx="3.2436583" />
+       width="51.915508"
+       height="52.563942"
+       x="212.30144"
+       y="845.84509"
+       rx="3.1731429" />
     <rect
        rx="2.6347888"
        y="624.45496"
@@ -3471,7 +3664,7 @@
       </g>
     </g>
     <g
-       transform="matrix(0,0.71163807,-1,0,978.18496,786.77569)"
+       transform="matrix(0,0.6673395,-1,0,978.18496,790.27429)"
        id="g9891">
       <path
          sodipodi:nodetypes="cc"
@@ -3831,56 +4024,34 @@
          x="125.63754"
          id="tspan5490"
          sodipodi:role="line">4.791mm</tspan></text>
-    <g
-       id="g6214"
-       transform="translate(-85.067082,54.891266)">
-      <path
-         inkscape:connector-curvature="0"
-         id="path6216"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 238.71326,811.52792 4.84009,0 0,1.0376 -3.71094,0 0,2.23389 q 0.26856,-0.0916 0.53711,-0.13428 0.26856,-0.0488 0.53711,-0.0488 1.52588,0 2.41699,0.83618 0.89112,0.83619 0.89112,2.26441 0,1.47095 -0.91553,2.28882 -0.91553,0.81176 -2.58179,0.81176 -0.57373,0 -1.17187,-0.0977 -0.59204,-0.0977 -1.22681,-0.29297 l 0,-1.23901 q 0.54932,0.29907 1.13525,0.44555 0.58594,0.14649 1.23902,0.14649 1.05591,0 1.67236,-0.55542 0.61646,-0.55542 0.61646,-1.50757 0,-0.95215 -0.61646,-1.50757 -0.61645,-0.55542 -1.67236,-0.55542 -0.49439,0 -0.98877,0.10986 -0.48828,0.10987 -1.00098,0.3418 l 0,-4.57764 z" />
-      <g
-         id="g6218">
-        <path
-           d="m 214.23206,812.60214 -3.11279,4.8645 3.11279,0 0,-4.8645 z m -0.32349,-1.07422 1.5503,0 0,5.93872 1.30005,0 0,1.02539 -1.30005,0 0,2.14844 -1.22681,0 0,-2.14844 -4.11377,0 0,-1.19018 3.79028,-5.77393 z"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           id="path6220"
-           inkscape:connector-curvature="0" />
-        <path
-           d="m 218.80359,819.09018 1.28785,0 0,1.55029 -1.28785,0 0,-1.55029 z"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           id="path6222"
-           inkscape:connector-curvature="0" />
-        <path
-           d="m 226.17054,812.60214 -3.1128,4.8645 3.1128,0 0,-4.8645 z m -0.32349,-1.07422 1.55029,0 0,5.93872 1.30005,0 0,1.02539 -1.30005,0 0,2.14844 -1.2268,0 0,-2.14844 -4.11377,0 0,-1.19018 3.79028,-5.77393 z"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           id="path6224"
-           inkscape:connector-curvature="0" />
-        <path
-           d="m 234.12952,812.60214 -3.11279,4.8645 3.11279,0 0,-4.8645 z m -0.32348,-1.07422 1.55029,0 0,5.93872 1.30005,0 0,1.02539 -1.30005,0 0,2.14844 -1.22681,0 0,-2.14844 -4.11377,0 0,-1.19018 3.79029,-5.77393 z"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           id="path6226"
-           inkscape:connector-curvature="0" />
-        <path
-           d="m 251.82361,815.11679 q 0.42115,-0.75684 1.00708,-1.11694 0.58594,-0.36011 1.3794,-0.36011 1.06811,0 1.64795,0.75073 0.57983,0.74463 0.57983,2.12403 l 0,4.12597 -1.12915,0 0,-4.08935 q 0,-0.98267 -0.3479,-1.45874 -0.3479,-0.47608 -1.06201,-0.47608 -0.8728,0 -1.3794,0.57984 -0.50659,0.57983 -0.50659,1.58081 l 0,3.86352 -1.12915,0 0,-4.08935 q 0,-0.98877 -0.3479,-1.45874 -0.3479,-0.47608 -1.07422,-0.47608 -0.86059,0 -1.36718,0.58594 -0.5066,0.57983 -0.5066,1.57471 l 0,3.86352 -1.12915,0 0,-6.83594 1.12915,0 0,1.06202 q 0.38453,-0.62867 0.92163,-0.92774 0.53711,-0.29907 1.27564,-0.29907 0.74463,0 1.26343,0.37842 0.5249,0.37842 0.77514,1.09863 z"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           id="path6228"
-           inkscape:connector-curvature="0" />
-        <path
-           d="m 263.98182,815.11679 q 0.42114,-0.75684 1.00708,-1.11694 0.58593,-0.36011 1.37939,-0.36011 1.06812,0 1.64795,0.75073 0.57983,0.74463 0.57983,2.12403 l 0,4.12597 -1.12915,0 0,-4.08935 q 0,-0.98267 -0.3479,-1.45874 -0.3479,-0.47608 -1.06201,-0.47608 -0.8728,0 -1.37939,0.57984 -0.50659,0.57983 -0.50659,1.58081 l 0,3.86352 -1.12915,0 0,-4.08935 q 0,-0.98877 -0.34791,-1.45874 -0.3479,-0.47608 -1.07421,-0.47608 -0.8606,0 -1.36719,0.58594 -0.50659,0.57983 -0.50659,1.57471 l 0,3.86352 -1.12915,0 0,-6.83594 1.12915,0 0,1.06202 q 0.38452,-0.62867 0.92163,-0.92774 0.53711,-0.29907 1.27563,-0.29907 0.74463,0 1.26343,0.37842 0.5249,0.37842 0.77515,1.09863 z"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           id="path6230"
-           inkscape:connector-curvature="0" />
-      </g>
-    </g>
     <image
        sodipodi:absref="/Users/pax/projects/paxinstruments/t400-enclosure/graphics/pax_instruments_t400_button_backlight_600dpi.png"
        xlink:href="pax_instruments_t400_button_backlight_600dpi.png"
-       width="59.603199"
-       height="52.812962"
-       preserveAspectRatio="none"
-       id="image6345"
+       y="739.85339"
        x="208.4576"
-       y="739.85339" />
+       id="image6345"
+       preserveAspectRatio="none"
+       height="52.812962"
+       width="59.603199" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="126.48092"
+       y="877.8429"
+       id="text5397"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5399"
+         x="126.48092"
+         y="877.8429">4.644mm</tspan></text>
+    <image
+       sodipodi:absref="/Users/pax/projects/paxinstruments/t400-enclosure/graphics/pax_instruments_t400_button_power_600dpi.png"
+       xlink:href="pax_instruments_t400_button_power_600dpi.png"
+       width="73.623482"
+       height="65.235992"
+       preserveAspectRatio="none"
+       id="image5646"
+       x="201.44745"
+       y="839.50903" />
   </g>
 </svg>
