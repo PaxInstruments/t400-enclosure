@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="pax_instrments_t400_label_front_panel.svg"
+   inkscape:version="0.91 r13725"
+   version="1.1"
+   id="svg4583"
+   viewBox="0 0 255.11812 26.574803"
+   height="7.5mm"
+   width="72mm"
+   inkscape:export-filename="/Users/pax/projects/paxinstruments/t400-enclosure/graphics/pax_instrments_t400_label_front_panel_600dpi.png"
+   inkscape:export-xdpi="600.04431"
+   inkscape:export-ydpi="600.04431">
+  <defs
+     id="defs4585">
+    <clipPath
+       id="clipPath3071"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3073"
+         d="M 0,768 1024,768 1024,0 0,0 0,768 Z"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clipPath3113"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3115"
+         d="M 0,768 1024,768 1024,0 0,0 0,768 Z"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clipPath3129"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3131"
+         d="m 0,0 1024,0 0,768 L 0,768 0,0 Z"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Paper like emboss effect"
+       inkscape:menu="Bumps"
+       inkscape:label="Paper Bump"
+       id="filter6265"
+       x="-0.12">
+      <feTurbulence
+         result="result0"
+         seed="0"
+         baseFrequency="1"
+         numOctaves="5"
+         type="fractalNoise"
+         id="feTurbulence6267" />
+      <feConvolveMatrix
+         result="result5"
+         order="5 5"
+         kernelMatrix="-2 0 0 0 -2 0 -2 0 -2 0 0 0 -10 0 0 0 -2 0 -2 0 -2 0 0 0 -2 "
+         targetX="2"
+         targetY="2"
+         id="feConvolveMatrix6269" />
+      <feComposite
+         result="result2"
+         k3="0.5"
+         k2="0.5"
+         k1="1.5"
+         operator="arithmetic"
+         in="result5"
+         in2="SourceGraphic"
+         id="feComposite6271"
+         k4="0" />
+      <feColorMatrix
+         in="result2"
+         type="luminanceToAlpha"
+         result="result2"
+         id="feColorMatrix6273" />
+      <feDiffuseLighting
+         surfaceScale="0.66399997"
+         result="result1"
+         diffuseConstant="0.60000002"
+         id="feDiffuseLighting6275">
+        <feDistantLight
+           elevation="35"
+           azimuth="225"
+           id="feDistantLight6277" />
+      </feDiffuseLighting>
+      <feComposite
+         operator="arithmetic"
+         in="result1"
+         k1="1.5"
+         k3="0.5"
+         result="result3"
+         in2="SourceGraphic"
+         id="feComposite6279"
+         k2="0"
+         k4="0" />
+      <feBlend
+         in="result3"
+         mode="normal"
+         result="result6"
+         in2="result1"
+         id="feBlend6281" />
+      <feComposite
+         operator="in"
+         in2="SourceGraphic"
+         id="feComposite6283" />
+    </filter>
+    <filter
+       inkscape:label="Rough Canvas Painting"
+       inkscape:menu="Bumps"
+       inkscape:menu-tooltip="Painting canvas emboss effect"
+       style="color-interpolation-filters:sRGB"
+       id="filter11760">
+      <feTurbulence
+         numOctaves="5"
+         baseFrequency="0.4"
+         id="feTurbulence11762" />
+      <feConvolveMatrix
+         order="5 5"
+         kernelMatrix="-4 0 0 0 -4 0 -2 0 -2 0 0 0 -10 0 0 0 -2 0 -2 0 -4 0 0 0 -4 "
+         targetX="2"
+         targetY="2"
+         id="feConvolveMatrix11764" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 2 0 -5 0 2 0 2 "
+         targetX="1"
+         targetY="1"
+         id="feConvolveMatrix11766" />
+      <feColorMatrix
+         type="saturate"
+         result="result1"
+         id="feColorMatrix11768" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="arithmetic"
+         k1="1.5"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite11770"
+         k4="0" />
+      <feTurbulence
+         baseFrequency="0.1"
+         numOctaves="5"
+         type="fractalNoise"
+         result="result8"
+         id="feTurbulence11772" />
+      <feDisplacementMap
+         scale="4"
+         in2="result8"
+         in="result2"
+         id="feDisplacementMap11774"
+         xChannelSelector="A"
+         yChannelSelector="A" />
+      <feBlend
+         in2="result1"
+         mode="normal"
+         result="result4"
+         id="feBlend11776" />
+      <feColorMatrix
+         type="luminanceToAlpha"
+         id="feColorMatrix11778" />
+      <feDiffuseLighting
+         surfaceScale="7"
+         diffuseConstant="1"
+         result="result3"
+         id="feDiffuseLighting11780">
+        <feDistantLight
+           azimuth="180"
+           elevation="37"
+           id="feDistantLight11782" />
+      </feDiffuseLighting>
+      <feComposite
+         in2="result4"
+         operator="arithmetic"
+         k1="1.5"
+         k3="0.5"
+         result="result5"
+         id="feComposite11784"
+         k2="0"
+         k4="0" />
+      <feBlend
+         in2="result3"
+         mode="normal"
+         result="result6"
+         id="feBlend11786" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite11788" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     showguides="false"
+     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-x="9"
+     inkscape:window-height="724"
+     inkscape:window-width="1276"
+     showgrid="false"
+     inkscape:current-layer="layer4"
+     inkscape:document-units="px"
+     inkscape:cy="13.287402"
+     inkscape:cx="127.55906"
+     inkscape:zoom="3.1005247"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:object-paths="true"
+     inkscape:snap-bbox="false"
+     inkscape:snap-intersection-paths="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid11940"
+       originx="-220.41578"
+       originy="-791.13897" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4588">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="label"
+     transform="translate(-220.41578,-234.6484)">
+    <g
+       style="display:inline"
+       id="g4845"
+       transform="matrix(0.99585067,0,0,0.96153849,1.4438669,9.5359899)">
+      <rect
+         inkscape:export-ydpi="174.0938"
+         inkscape:export-xdpi="174.0938"
+         inkscape:export-filename="/Users/pax/projects/paxinstruments/branding/labels_example7.png"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect14208"
+         width="256.18109"
+         height="27.637794"
+         x="219.88429"
+         y="234.1169"
+         rx="5.3149605" />
+      <text
+         inkscape:export-ydpi="174.0938"
+         inkscape:export-xdpi="174.0938"
+         inkscape:export-filename="/Users/pax/projects/paxinstruments/branding/labels_example7.png"
+         sodipodi:linespacing="125%"
+         id="text14210"
+         y="254.76396"
+         x="428.56021"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.15625px;line-height:125%;font-family:'News706 BT';-inkscape-font-specification:'News706 BT, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="254.76396"
+           x="428.56021"
+           id="tspan14212"
+           sodipodi:role="line">T400</tspan></text>
+      <text
+         inkscape:export-ydpi="174.0938"
+         inkscape:export-xdpi="174.0938"
+         inkscape:export-filename="/Users/pax/projects/paxinstruments/branding/labels_example7.png"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.75407314px;line-height:125%;font-family:'News706 BT';-inkscape-font-specification:'News706 BT, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="374.45401"
+         y="245.07242"
+         id="text14214"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan14216"
+           x="374.45401"
+           y="245.07242">Temperature</tspan><tspan
+           sodipodi:role="line"
+           x="374.45401"
+           y="254.76501"
+           id="tspan14218">Datalogger</tspan></text>
+      <g
+         inkscape:export-ydpi="174.0938"
+         inkscape:export-xdpi="174.0938"
+         inkscape:export-filename="/Users/pax/projects/paxinstruments/branding/labels_example7.png"
+         transform="translate(100.58834,-416.95588)"
+         id="g14220"
+         style="opacity:1">
+        <g
+           transform="matrix(0.04694229,0,0,-0.04694229,109.67332,681.81754)"
+           inkscape:label="PI0001_Deliverables_8.23.14_rev"
+           id="g14222"
+           style="fill:#00afff;fill-opacity:1">
+          <path
+             d="m 481.9781,527.3381 11.441,19.825 c 3.455,5.984 1.384,13.709 -4.605,17.164 l -38.698,22.349 c -5.989,3.455 -13.719,1.384 -17.174,-4.605 l -46.301,-80.202 c -3.455,-5.989 -1.384,-13.713 4.6,-17.163 l 7.506,-4.339 -13.841,-23.967 24.191,-13.964 13.841,23.967 7.006,-4.046 c 5.989,-3.455 13.709,-1.384 17.169,4.6 l 14.768,25.58 c 34.141,-8.177 59.599,-38.943 59.599,-75.548 0,-42.845 -34.854,-77.705 -77.7,-77.705 -17.115,0 -32.927,5.59 -45.778,15.002 l 0,4.233 c 0,23.828 4.557,27.677 33.986,29.434 l 0,17.861 -112.106,0 0,-17.861 c 29.424,-1.757 34.327,-5.606 34.327,-29.434 l 0,-132.874 c 0,-23.819 -4.903,-27.678 -34.327,-29.43 l 0,-17.866 112.106,0 0,17.866 c -29.429,1.752 -33.986,5.611 -33.986,29.43 l 0,83.917 c 14.071,-6.027 29.536,-9.38 45.778,-9.38 64.406,0 116.808,52.401 116.808,116.807 0,51.027 -32.911,94.49 -78.61,110.349"
+             style="fill:#00afff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path14224"
+             inkscape:connector-curvature="0" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.91363716px;line-height:125%;font-family:'News706 BT';-inkscape-font-specification:'News706 BT, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="133.30948"
+           y="673.37695"
+           id="text14226"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan14228"
+             x="133.30948"
+             y="673.37695"
+             style="fill:#000000;fill-opacity:1"><tspan
+   id="tspan14230"
+   style="fill:#00afff;fill-opacity:1">AX</tspan> INSTRUMENTS</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
